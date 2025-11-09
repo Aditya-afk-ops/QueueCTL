@@ -1,0 +1,22 @@
+{
+  "ready": [],
+  "finished": [
+    {
+      "id": "job1",
+      "command": "echo Hello World",
+      "state": "finished",
+      "attempts": 0,
+      "output": "Hello World",
+      "updated_at": "2025-11-09T21:19:30.760Z"
+    },
+    {
+      "id": "job2",
+      "command": "echo Hello World2",
+      "state": "finished",
+      "attempts": 0,
+      "output": "Hello World2",
+      "updated_at": "2025-11-09T21:20:02.647Z"
+    }
+  ],
+  "dead": []
+}
