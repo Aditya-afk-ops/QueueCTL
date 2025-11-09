@@ -1,3 +1,5 @@
+//Demo Video - https://drive.google.com/file/d/1K67-Zt3b06VBYhilDQNSeAyDLK08_p8C/view?usp=drive_link
+
 //To set up locally : 
 
 1. Install Node.js (v12 or higher)
@@ -52,7 +54,7 @@ dead contains failed jobs if any exceed retry limit.
 
 We can check completed jobs and their output:
 
-cat queue.json
+node queuectl.js view all
 
 
 Each finished job will have an output field with the command result.
